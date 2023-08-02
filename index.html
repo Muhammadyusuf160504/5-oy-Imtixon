@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5-Oy Imtixon || Ne'matjonov Muhammadyusuf</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body class="blur">
+    <div class="container">
+      <header class="header-container">
+        <a class="link" href="#">
+          <img src="./img/bg-img.webp" alt="kino olami swg" width="100px" />
+        </a>
+        <div class="links">
+          <a class="link" href="#"
+            ><img
+              src="./img/Marvel_Logo.svg.png"
+              alt="Marvel kompany swg"
+              width="100px"
+          /></a>
+          <a class="link" href="#"
+            ><img
+              src="./img/Ozbekkino-logo.png"
+              alt="O'zbekkino swg"
+              width="100px"
+          /></a>
+        </div>
+      </header>
+    </div>
+    <!-- Main -->
+    <main class="main">
+      <h1 class="title">
+        Biz bilan o'zingizga yoqqan kinolar haqida malumotlarni izlang
+      </h1>
+      <div class="input-container">
+        <form id="kino-nomi1" class="kino-nomi1">
+          <label class="input1" for="kino1"
+            >Qidirayotgan kinoingizni nomini kiriting</label
+          >
+          <input
+            type="text"
+            name="kino1"
+            class="form-control"
+            autocomplete="off"
+          />
+        </form>
+        <form id="kino-nomi2" class="kino-nomi2">
+          <label class="input2" for="kino2"
+            >Qaysi kino haqida to'liq malumot izlayapsiz</label
+          >
+          <input
+            type="text"
+            name="kino2"
+            class="form-control"
+            autocomplete="off"
+          />
+        </form>
+      </div>
+      <div id="malumotlar" class="malumotlar display-none">
+        <img src="" alt="rasm" />
+        <div class="text">
+          <h2>Title</h2>
+          <h2>Year</h2>
+          <h2>Actors</h2>
+          <h2>BoxOffice</h2>
+          <h2>Country</h2>
+          <h2>Runtime</h2>
+          <h2>Type</h2>
+          <h2>imdbID</h2>
+          <h2>imdbRating</h2>
+        </div>
+      </div>
+      <div id="movies" class="movies display-none">
+        <ul id="list" class="lists"></ul>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <h2>hello</h2>
+    </footer>
+
+    <!-- OVERLAY Malumot yuklanishidan oldin loading... Ko'rinadi -->
+    <div class="overlay hidden">
+      <div class="lds-roller">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <script src="./js/forecast.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
