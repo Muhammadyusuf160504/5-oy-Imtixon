@@ -18,8 +18,8 @@ request.addEventListener("readystatechange", () => {
     overlay.classList.remove("hidden");
   }
 });
-// request.open("GET", "http://localhost:3000/articles");
-// request.send();
+request.open("GET", "http://localhost:3000/articles");
+request.send();
 
 const updateUI = (kinolar) => {
   const data = kinolar.Search;
