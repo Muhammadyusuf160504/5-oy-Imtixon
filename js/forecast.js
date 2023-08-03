@@ -1,5 +1,5 @@
-const KEY = "263d22d8";
-
+const KEY = "3e90ace9";
+// 263d22d8
 const getKinoName = async (kino) => {
   const base = "https://www.omdbapi.com/";
   const query = `?s=${kino}&apikey=${KEY}`;
