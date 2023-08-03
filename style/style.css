@@ -44,6 +44,9 @@ a {
   margin-top: 25px;
   background-image: linear-gradient(red, blue);
   border: 2px solid;
+  font-size: 2.5rem;
+  padding: 10px;
+  border-radius: 15px;
   border-top-color: blue;
   border-left-color: red;
   border-bottom-color: red;
@@ -124,11 +127,27 @@ a {
 }
 .input1 {
   font-size: 2.2rem;
-  color: red;
+  color: white;
+  background-image: linear-gradient(red, blue);
+  padding: 10px;
+  border-radius: 15px;
+  border: 2px solid;
+  border-top-color: blue;
+  border-left-color: red;
+  border-bottom-color: red;
+  border-right-color: blue;
 }
 .input2 {
   font-size: 2.2rem;
-  color: red;
+  color: white;
+  background-image: linear-gradient(red, blue);
+  padding: 10px;
+  border-radius: 15px;
+  border: 2px solid;
+  border-top-color: blue;
+  border-left-color: red;
+  border-bottom-color: red;
+  border-right-color: blue;
 }
 .form-control {
   font-size: 2.2rem;
@@ -292,4 +311,9 @@ a {
 .hidden {
   opacity: 0;
   visibility: hidden;
+}
+@media (max-width: 680px) {
+  .input-container {
+    flex-direction: column;
+  }
 }
