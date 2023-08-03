@@ -316,4 +316,15 @@ a {
   .input-container {
     flex-direction: column;
   }
+  .malumotlar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    border-radius: 15px;
+    background-color: aqua;
+    padding: 15px;
+    margin-top: 25px;
+  }
 }
